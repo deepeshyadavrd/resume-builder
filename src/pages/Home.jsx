@@ -4,7 +4,7 @@ export default function Home() {
     return (
         <div className="min-h-screen flex flex-col bg-gray-50 text-gray-800">
             {/* Hero Section */}
-            <section classname="flex flex-col items-center justify-center flex-grow text-center py-24 px-6">
+            <section className="flex flex-col items-center justify-center flex-grow text-center py-24 px-6">
                 <h1 className="text-5xl font-extrabold text-blue-600 mb-4">Build a stunning Resume for free</h1>
                 <p className="text-lg text-gray-600 max-w-2xl mb-8">No login, no paywalls — just pick a template, fill your details, and download your resume instantly.</p>
                 <Link to="/template" className="bg-blue-600 text-white px-8 py-3 rounded-lg text-lg font-semibold hover:bg-blue-700 transition">Start Building</Link>
@@ -15,7 +15,7 @@ export default function Home() {
                 <h2 className="text-3xl font-bold text-center mb-12">
                   Why Choose ResumeBuilder?
                 </h2>
-            
+
                 <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
                   {[
                     { title: "Completely Free", desc: "No hidden charges, no subscriptions — build and download without paying." },
